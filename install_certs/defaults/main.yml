@@ -1,0 +1,4 @@
+---
+# defaults file for provision
+domain_name: croftvillas.com
+cluster_name: "prod"
