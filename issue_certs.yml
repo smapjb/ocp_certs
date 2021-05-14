@@ -9,7 +9,7 @@
     acme_cert_dir: "./{{ cluster_name }}/files/"
 
     acme_challenge_provider: hetzner
-    acme_use_live_directory: false
+    acme_use_live_directory: true
     acme_account_email: "phil@{{ domain_name }}"
     acme_hetzner_auth_token: !vault |
           $ANSIBLE_VAULT;1.1;AES256
